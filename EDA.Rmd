@@ -1,0 +1,16 @@
+---
+title: "EDA"
+author: "Dasha Metropolitansky"
+date: "11/9/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Reading in the data
+load('WVS_Cross-National_Wave_7_R_v1_4.rdata') 
+df = `WVS_Cross-National_Wave_7_R_v1_4`
+rm(`WVS_Cross-National_Wave_7_R_v1_4`)
+```
+
